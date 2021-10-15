@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .flex-container {
+            border: 1px solid red;
+            display: flex;
+            height: 500px;
+            align-items: stretch;
+
+        }
+        .column {
+            border: 1px solid blue;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Three Column Layout</h1>
+    <div class="flex-container">
+        <div class="column">1</div>
+        <div class="column">2</div>
+        <div class="column">3</div>
+    </div>
+</body>
